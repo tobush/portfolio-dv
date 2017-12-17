@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+    margin: 0;
+}
+
+#main-nav {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+ul {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300px;
+
+}
+
+a:hover {
+    color: #291f1a;
+}
