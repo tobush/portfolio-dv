@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
 }
 
@@ -70,6 +70,7 @@ h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     margin-top: 0;
+    text-align: center;
 }
 
 .main-header-content span {
@@ -95,6 +96,7 @@ h1, h2 {
     font-weight: 300;
     margin-top: 60px;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 #about > h2 > span {
@@ -163,6 +165,7 @@ figure figcaption {
 #portfolio > h2 {
     font-size: 30px;
     font-weight: 300;
+    text-align: center;
 }
 
 #portfolio span {
@@ -228,3 +231,41 @@ figure figcaption {
     right: 0;
     color: #fff;
 }
+
+#contact {
+    
+}
+
+i {
+    font-size: 100px;
+}
+
+.contact-social-icons a {
+    text-decoration: none;
+}
+
+.contact-social-icons .link-1::before {
+    content: "\f09a";
+    font-family: 'fontawesome';
+    font-size: 30px;
+}
+
+.contact-social-icons .link-2::before {
+    content: "\f0d5";
+    font-family: 'fontawesome';
+    font-size: 30px;
+}
+
+.contact-social-icons .link-3::before {
+    content: "\f099";
+    font-family: 'fontawesome';
+    font-size: 30px;
+}
+
+.contact-social-icons .link-4::before {
+    content: "\f0e1";
+    font-family: 'fontawesome';
+    font-size: 30px;
+}
+
+
