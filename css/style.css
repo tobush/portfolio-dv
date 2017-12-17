@@ -119,3 +119,112 @@ h1, h2 {
     align-content: center;
 }
 
+#skills {
+    position: relative;
+    height: 400px;
+}
+
+#skills h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#skills h2,
+#skills p {
+    text-align: center;
+}
+
+#skills span {
+    color: #1ac056;
+    font-weight: 500;
+}
+
+#skills-icons { 
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+
+#skills-icons figure {
+    display: inline-block;
+
+}
+
+figure figcaption {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#portfolio {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#portfolio > h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#portfolio span {
+    color: #1ac056;
+    font-weight: 500;
+}
+
+.portfolio-items {
+    text-align: center;
+    font-size: 0;
+    width: 95%;
+    padding-left: 5%;
+}
+
+.portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    width: 33%;
+}
+
+#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio-item-3 {
+    background-image: url(../img/portfolio3.jpg);
+}
+
+.item-mask {
+    background: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+}
+
+.item-mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.item-content {
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+.item-content-inner {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
