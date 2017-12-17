@@ -8,17 +8,20 @@ body {
 #main-nav {
     background-color: #ffffff;
     width: 100%;
-}
-
-ul {
     position: fixed;
-    right: 0;
-    top: 0;
+    text-align: right;
+    z-index: 2;
 }
 
-li {
+#main-nav ul {
+    margin: 0;
+    float: right;
+}
+
+#main-nav li {
     display: inline-block;
-    padding: 20px;
+    padding-left: 20px;
+    list-style: none;
 }
 
 a {
@@ -31,3 +34,18 @@ a {
 a:hover {
     color: #291f1a;
 }
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header-content {
+    padding: 30vh;
+}
+
+.main-header-content>h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
