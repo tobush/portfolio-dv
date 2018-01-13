@@ -9,6 +9,17 @@ body {
     margin: 0;
 }
 
+body h3 {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+    margin: 0;
+}
+
+section {
+    padding: 60px;
+}
+
 h1 {
     text-align: center;
 }
@@ -125,6 +136,11 @@ h1 {
     align-content: center;
 }
 
+#about > article > h3 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
 #skills {
     position: relative;
     height: 100%;
@@ -180,7 +196,6 @@ figure figcaption {
     text-align: center;
     font-size: 0;
     width: 95%;
-    padding-left: 5%;
 }
 
 .portfolio-item {

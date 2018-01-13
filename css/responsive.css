@@ -2,12 +2,12 @@
     .portfolio-item {
         width: 50%;
     }
-    
+
     .portfolio-item:last-child {
         width: 100%;
     }
 }
-    
+
 @media all and (max-width: 992px) {
     .toggle {
         display: block;
@@ -40,57 +40,60 @@
         padding: 20px;
         text-align: right;
     }
-    
+
     .main-header-content {
         padding: 10%;
     }
-    
+
     #about > article {
         width: 100%;
     }
-    
+
     #about > figure {
         width: 100%;
     }
-    
+
     #about > figure > img {
         max-height: inherit;
     }
-    
+
     .contact-data {
         width: 100%;
         text-align: center;
     }
-    
+
     .contact-data > h2 {
         text-align: center;
     }
-    
+
     .contact-form {
         width: 100%;
     }
-    
+
     .contact-social-icons a {
         margin: 0;
     }
-    
+
 
     #skills-icons figure {
         margin: 0;
         padding: 20px;
         display: block;
     }
-    
+
     footer p {
         text-align: center;
     }
-    
+
     #skills p {
         width: 100%;
     }
-    
+
     #contact-social-icons {
         padding: 5px;
+    }
+    .portfolio-item {
+        width: 100%;
     }
 }
 
@@ -98,13 +101,13 @@
     section {
         padding: 0 40px 50px;
     }
-    
+
     body h1 {
-      font-size: 3em;  
+        font-size: 3em;
     }
-    
+
     body h2 {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
 }
 
