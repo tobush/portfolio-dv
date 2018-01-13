@@ -233,7 +233,42 @@ figure figcaption {
 }
 
 #contact {
-    
+    display: inline-block;
+    width: 100%;
+    background-color: #213b50;
+    overflow: hidden;
+    color:  #fff;
+    padding: 20px 60px;
+}
+
+.contact-data {
+    width: 50%;
+    float: left;
+}
+
+.contact-form {
+    width: 50%;
+    float: left;
+}
+
+.contact-data > h2 {
+    text-align: left;
+    font-size: 38px;
+}
+
+.contact-data > h2 > span {
+    color: #1ac056;
+    font-weight: 500;
+}
+
+.contact-data > address {
+    font-style: normal;
+    line-height: 28px;
+    margin: 72px 0;
+}
+
+.contact-data > address > span {
+    color: #1ac056;
 }
 
 i {
@@ -242,30 +277,77 @@ i {
 
 .contact-social-icons a {
     text-decoration: none;
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    margin-right: 30px;
+    line-height: 38px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+.contact-social-icons a:hover {
+    color: #213b50;
+    border-color: #213b50;
+    background-color: #fff;
+    
 }
 
 .contact-social-icons .link-1::before {
     content: "\f09a";
     font-family: 'fontawesome';
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .contact-social-icons .link-2::before {
     content: "\f0d5";
     font-family: 'fontawesome';
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .contact-social-icons .link-3::before {
     content: "\f099";
     font-family: 'fontawesome';
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .contact-social-icons .link-4::before {
     content: "\f0e1";
     font-family: 'fontawesome';
-    font-size: 30px;
+    font-size: 22px;
+}
+
+.contact-form {
+    margin-top: 100px;
+}
+
+.contact-form input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0px solid #2b4a64;
+    background-color: #2b4a64;
+}
+
+.contact-form input:focus, textarea:focus {
+    background-color: #426684;
+}
+
+.contact-form input[type="submit"] {
+    width: 25%;
+    padding: 15px 30px;
+    float: right;
+    text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
 }
 
 
