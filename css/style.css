@@ -26,6 +26,10 @@ h1 {
     float: right;
 }
 
+#main-nav > input,label {
+    display: none;
+}
+
 #main-nav li {
     display: inline-block;
     padding: 20px 40px;
@@ -123,7 +127,7 @@ h1 {
 
 #skills {
     position: relative;
-    height: 400px;
+    height: 100%;
 }
 
 #skills h2 {
@@ -142,15 +146,14 @@ h1 {
 }
 
 #skills-icons { 
-    position: absolute;
-    left: 25%;
-    right: 25%;
+    position: relative;
+    text-align: center;
 }
 
 #skills-icons figure {
     display: inline-block;
-
 }
+
 
 figure figcaption {
     text-align: center;
@@ -230,7 +233,20 @@ figure figcaption {
     left: 0;
     right: 0;
     color: #fff;
+    position: absolute;
 }
+
+.item-content-inner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item-content-inner a::after {
+    content: "\f0c1";
+    font-family: 'fontawesome';
+    font-size: 22px;
+}
+
 
 #contact {
     display: inline-block;
@@ -285,6 +301,7 @@ i {
     border: 1px solid #fff;
     text-align: center;
     font-size: 22px;
+    color: #fff;
 }
 
 .contact-social-icons a:hover {
@@ -343,11 +360,25 @@ i {
     background-color: #1ac056;
     color: #fff;
     font-weight: 600;
+    transition: all .3s;
 }
 
 .contact-form input[type="submit"]:hover {
     background-color: #fff;
     color: #1ac056;
+}
+
+footer {
+    background-color: #142634;
+    padding: 0px 80px;
+    color: #fff;
+    margin-top: -4px;
+    
+}
+
+footer > p {
+    margin: 0;
+    padding-bottom: 2px;
 }
 
 

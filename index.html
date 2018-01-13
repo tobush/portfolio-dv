@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
@@ -11,22 +12,25 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-   <!-- Navigation menu -->
+    <!-- Navigation menu -->
     <nav id="main-nav">
+        <label for="drop" class="toggle"></label>
+        <input type="checkbox" id="drop">
         <ul>
             <li><a href="#about">o mnie</a></li>
-            <li><a href="skills">umiejętności</a></li>
+            <li><a href="#skills">umiejętności</a></li>
             <li><a href="#portfolio">portfolio</a></li>
             <li><a href="#contact">kontakt</a></li>
         </ul>
-    </nav> 
+    </nav>
     <!-- Header -->
     <header id="main-header">
-       <div class="main-header-content">
-        <h1>Denys <span>Vladyshevskyi</span></h1>
-        <h2>Front-End Developer</h2>
-       </div>
+        <div class="main-header-content">
+            <h1>Denys <span>Vladyshevskyi</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
     </header>
     <!-- Section "O mnie" -->
     <section id="about">
@@ -35,7 +39,7 @@
             <img src="img/jan-nowak.jpg" alt="My phone">
         </figure>
         <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat accusantium hic corrupti, delectus sunt odit reiciendis sed nemo quae! Assumenda, inventore amet? Sapiente earum quae corrupti odio nostrum amet accusantium! Amet quas sequi illum, ad repellendus officia nam architecto optio adipisci quis placeat natus ab quisquam dolor eligendi asperiores quae eius porro laboriosam voluptatem et nesciunt, qui culpa odio.</p> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellat accusantium hic corrupti, delectus sunt odit reiciendis sed nemo quae! Assumenda, inventore amet? Sapiente earum quae corrupti odio nostrum amet accusantium! Amet quas sequi illum, ad repellendus officia nam architecto optio adipisci quis placeat natus ab quisquam dolor eligendi asperiores quae eius porro laboriosam voluptatem et nesciunt, qui culpa odio.</p>
             <p>Nemo nulla soluta eum officia tempora doloribus fugit unde atque necessitatibus ab repellat eveniet dolores, illum molestias perferendis ipsa ea provident, iusto architecto dolore iure possimus iste! Laudantium, repellendus pariatur a quasi, deserunt molestiae, natus fugiat quaerat magni aliquid fuga illum porro numquam quae doloribus repellat aspernatur, error nobis quis ullam dicta facere ipsam. Alias, quos eligendi! Cupiditate consequatur, nisi?</p>
         </article>
     </section>
@@ -67,26 +71,43 @@
         <h2>Moje <span>portfolio</span></h2>
         <div class="portfolio-items">
             <div class="portfolio-item" id="portfolio-item-1">
-              <div class="item-mask">
-                
-              </div>
+                <div class="item-mask">
+                <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Project</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deleniti sequi enim quia doloremque ipsum suscipit quisquam dolorum, eius quibusdam.</p>
+                            <h4>Wykorzystane technologie</h4>
+                            <p>HTML5, CSS3, RWD, Bootstrap. JavaScript, jQuery</p>
+                            <a href="https://facebook.com"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="portfolio-item" id="portfolio-item-2">
-               <div class="item-mask">
-                <div class="item-content">
-                    <dev class="item-content-inner">
-                        <h3>Project</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deleniti sequi enim quia doloremque ipsum suscipit quisquam dolorum, eius quibusdam.</p>
-                        <h4>Wykorzystane technologie</h4>
-                        <p>HTML5, CSS3, RWD, Bootstrap. JavaScript, jQuery</p>
-                    </dev>
+                <div class="item-mask">
+                    <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Project</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deleniti sequi enim quia doloremque ipsum suscipit quisquam dolorum, eius quibusdam.</p>
+                            <h4>Wykorzystane technologie</h4>
+                            <p>HTML5, CSS3, RWD, Bootstrap. JavaScript, jQuery</p>
+                            <a href="https://facebook.com"></a>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="portfolio-item" id="portfolio-item-3">
-               <div class="item-mask">
-                
-              </div>
+                <div class="item-mask">
+                <div class="item-content">
+                        <div class="item-content-inner">
+                            <h3>Project</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deleniti sequi enim quia doloremque ipsum suscipit quisquam dolorum, eius quibusdam.</p>
+                            <h4>Wykorzystane technologie</h4>
+                            <p>HTML5, CSS3, RWD, Bootstrap. JavaScript, jQuery</p>
+                            <a href="https://facebook.com"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -110,16 +131,21 @@
             </div>
         </div>
         <div class="contact-form">
-          <form action="" method="post">
-            <input type="text" placeholder="Imie i nazwisko">
-            <input type="email" placeholder="E-mail address">
-            <textarea name="message" id="textarea" cols="30" rows="5">
+            <form action="" method="post">
+                <input type="text" placeholder="Imie i nazwisko">
+                <input type="email" placeholder="E-mail address">
+                <textarea name="message" id="textarea" cols="30" rows="5">
                 
             </textarea>
-            <a href="https://facebook.com"></a>
-            <input type="submit" value="Submit">
-          </form>
+                <a href="https://facebook.com"></a>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
+    <footer>
+        <p>Copyright &copy; Denys Vladyshevskyi</p>
+    </footer>
+
 </body>
+
 </html>
